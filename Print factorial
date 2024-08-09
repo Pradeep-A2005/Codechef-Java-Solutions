@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Codechef
+{
+	public static void main (String[] args)
+	{
+	    Scanner input = new Scanner(System.in);
+	    int n = input.nextInt();
+	    int fact = 1;
+	    int i=1;
+		do{
+		    fact*=i;
+		    i++;
+		}while(i<=n);
+        System.out.print(fact);
+	}
+}
